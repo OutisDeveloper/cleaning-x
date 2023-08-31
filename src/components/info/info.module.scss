@@ -1,0 +1,124 @@
+#Info {
+  padding-top: 48px;
+  margin-bottom: 125px;
+  .infoContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    .quality {
+      h1 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36.008px;
+      }
+      p {
+        margin: 7px 0px 34px 0px;
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+      }
+      .quad {
+        display: flex;
+        gap: 16px;
+        .one {
+          width: 36px;
+          height: 36px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          background: #edf5ff;
+        }
+      }
+    }
+    .contact {
+      h3 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 24px;
+        margin-bottom: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+      }
+      p {
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+        margin-bottom: 12px;
+      }
+    }
+    .hours {
+      h2 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 24px;
+      }
+      h3 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19.998px;
+        white-space: nowrap;
+        margin-bottom: 8px;
+      }
+      p {
+        margin-bottom: 8px;
+        white-space: nowrap;
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+      }
+    }
+    .free {
+      h2 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 24px;
+      }
+      span {
+        color: #0075ff;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36.008px;
+      }
+      p {
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  @media (max-width:1100px) {
+    .infoContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+  }
+}
