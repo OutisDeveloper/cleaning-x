@@ -1,12 +1,12 @@
-import Style from "./contactInput.modules.scss";
+import Style from "./contactInput.module.scss";
 
-export const ContactInput = () => {
+export const ContactInput = ({ input }) => {
   return (
     <div className={Style.contactInput}>
-      <input type="text" id="input" />
       <label id="label" htmlFor="ipnut">
-        text
+        {input}
       </label>
+      <input type="text" id="input" />
     </div>
   );
 };

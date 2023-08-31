@@ -1,7 +1,7 @@
 import Style from "./contact.module.scss";
 import contactPhone from "../../assets/images/contactPhone.svg";
 import Button from "../primaryBtn/Button";
-import ContactInput from "./contactInput/ContactInput";
+import ContactInput from "./contactInput/contactIpnut";
 
 export const Contact = () => {
   return (
@@ -22,7 +22,16 @@ export const Contact = () => {
           <Button textBtn={"Browse our packages"} />
         </div>
         <div className={Style.contactRight}>
-          <ContactInput />
+          <div className={Style.rightTop}>
+            <ContactInput input={"Full name"} />
+            <ContactInput input={"Phone number"} />
+            <ContactInput input={"Address"} />
+            <ContactInput input={"Email"} />
+            <ContactInput input={"Requested service"} />
+            <ContactInput input={"Day of service"} />
+            <ContactInput input={"Add a note"} />
+          </div>
+          <Button textBtn={'Submit message'}/>
         </div>
       </div>
     </section>
