@@ -6,7 +6,7 @@ import abCardImg3 from "../../assets/images/abcard3.png";
 import Button from "../primaryBtn/Button";
 export const About = () => {
   return (
-    <div id={Style.About}>
+    <section id={Style.About}>
       <div className={`container ${Style.AboutContainer}`}>
         <h1>About Us</h1>
         <p>
@@ -41,7 +41,7 @@ export const About = () => {
           <Button textBtn={"Explore services"} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
