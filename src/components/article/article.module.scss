@@ -1,0 +1,44 @@
+#Article {
+  margin-bottom: 360px;
+  .articleContainer {
+    .articleTop {
+      margin-bottom: 93px;
+      h1 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px;
+      }
+      .arTopRight {
+        button:nth-child(2) {
+          margin-left: 24px;
+          background-color: transparent;
+          border-color: #0075ff;
+          color: #0075ff;
+          &:hover {
+            background-color: #0075ff;
+            color: white;
+          }
+        }
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .articleCardBox {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  @media (max-width: 1150px) {
+    .articleContainer {
+      .articleCardBox {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+      }
+    }
+  }
+}
