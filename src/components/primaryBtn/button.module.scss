@@ -1,0 +1,17 @@
+.primaryBtn {
+  padding: 18px 24px;
+  border-radius: 14px;
+  background-color: #0075ff;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border: 1px solid white;
+  &:hover {
+    background-color: white;
+    color: #0075ff;
+    border-color: #0075ff;
+  }
+}

@@ -1,0 +1,47 @@
+#Home {
+  .homeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .homeLeft {
+      h1 {
+        color: #211f54;
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 73.984px;
+      }
+      p {
+        padding: 22px 0px 40px 0px;
+      }
+      .homeLeftBottom {
+        display: flex;
+        align-items: center;
+        img {
+          height: 72px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1150px) {
+    .homeContainer {
+      flex-direction: column;
+      justify-content: center;
+      .homeLeft {
+        h1 {
+          font-size: 38px;
+          line-height: 110%;
+        }
+        .homeLeftBottom {
+          flex-direction: column;
+          justify-content: right;
+        }
+      }
+      .homeRight {
+        .HomeRightImg {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
