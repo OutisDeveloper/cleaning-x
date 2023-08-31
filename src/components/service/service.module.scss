@@ -1,0 +1,43 @@
+#Service {
+  margin-bottom: 145px;
+  .serviceContainer {
+    .ServiceTop {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 78px;
+      h1 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px;
+      }
+      button {
+        background-color: transparent;
+        border-color: #0075ff;
+        color: #0075ff;
+        &:hover {
+          background-color: #0075ff;
+          color: white;
+        }
+      }
+    }
+    .serviceCardBox {
+      display: flex;
+      gap: 28px;
+    }
+    @media (max-width: 1150px) {
+      .serviceCardBox {
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        div {
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
+        }
+      }
+    }
+  }
+}
