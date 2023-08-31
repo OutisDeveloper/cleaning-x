@@ -1,0 +1,60 @@
+#Contact {
+  padding-bottom: 112px;
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    .contactLeft {
+        width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      gap: 32px;
+
+      h1 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px;
+      }
+
+      p {
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+      }
+      img {
+        height: 72px;
+      }
+      h3 {
+        color: #211f54;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36.008px;
+      }
+      span {
+        color: #6e7191;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px;
+      }
+      button {
+        background-color: transparent;
+        border-color: #0075ff;
+        color: #0075ff;
+        &:hover {
+          background-color: #0075ff;
+          color: white;
+        }
+      }
+    }
+  }
+}
