@@ -1,0 +1,27 @@
+.AboutCard {
+  max-width: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 240px;
+    height: 240px;
+  }
+  h3 {
+    color: #211f54;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+  }
+  p {
+    color: #6e7191;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+  }
+}

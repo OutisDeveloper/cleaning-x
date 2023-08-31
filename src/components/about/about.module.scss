@@ -1,0 +1,51 @@
+#About {
+  margin:155px 0px;
+  .AboutContainer {
+    h1 {
+      color: #211f54;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 57.984px;
+      padding-bottom: 20px;
+    }
+    p {
+      color: #6e7191;
+      text-align: center;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30.006px;
+      padding-bottom: 58px;
+      max-width: 648px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .aboutCardBox {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 57px;
+    }
+    .aboutBottom {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+      button:nth-child(2) {
+        background-color: transparent;
+        border-color: #0075ff;
+        color: #0075ff;
+        &:hover {
+          background-color: #0075ff;
+          color: white;
+        }
+      }
+    }
+    @media (max-width: 850px) {
+      .aboutCardBox {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
